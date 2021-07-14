@@ -222,9 +222,9 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    total_duration = (df['Trip Duration'].sum()/3600).round(2)
+    total_duration = round((df['Trip Duration'].sum()/3600),2)
     
-    mean_duration = (df['Trip Duration'].mean()/60).round(2)
+    mean_duration = round((df['Trip Duration'].mean()/60),2)
     
     # display total travel time
     print('Total travel time for the period was: "{}" hours\n'.format(total_duration))
