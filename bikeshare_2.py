@@ -2,8 +2,8 @@ import time
 import pandas as pd
 import time
 
-time_sleep_a = 1.5
-time_sleep_b = 0
+time_sleep_a = 1
+time_sleep_b = 0.5
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
